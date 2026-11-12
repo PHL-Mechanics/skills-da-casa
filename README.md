@@ -1,6 +1,6 @@
 # Skills da casa
 
-Skills do Claude Code usadas nos projetos da casa. O manual do treinamento pede para instalar este repositório na semana 2.
+Skills do Claude Code usadas nos projetos da casa. O manual do treinamento pede para instalar este repositório no capítulo "Skills da casa".
 
 | Skill | Para quê | Quando chamar |
 | --- | --- | --- |
