@@ -10,7 +10,7 @@ Skills do Claude Code usadas nos projetos da casa. O manual do treinamento pede 
 
 ## Instalar
 
-O repositório é privado. Para instalar, você precisa do Node.js 22.20 ou mais novo e do GitHub CLI com login feito (`gh auth status` mostra se está tudo certo).
+Para instalar, você precisa do Node.js 22.20 ou mais novo.
 
 ```bash
 npx skills add PHL-Mechanics/skills-da-casa --skill '*' -g -a claude-code -y
