@@ -1,0 +1,21 @@
+{
+  "name": "web-qa-runner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runner da skill web-qa: build, funcional, visual, performance, acessibilidade/SEO e LGPD.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "doctor": "node run.mjs doctor"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "axe-core": "^4.10.0",
+    "chrome-launcher": "^1.1.2",
+    "lighthouse": "^12.0.0 || ^13.0.0",
+    "playwright": "^1.50.0"
+  }
+}
